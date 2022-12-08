@@ -12,7 +12,7 @@ running the script:
 select scripting in the 3dsmax toolbar > maxscript listener > select python
 
 import sys <br />
-sys.path.append(r'path\tool')           | e.g sys.path.append(r'c:\users\<user>\desktop\tool') <br />
+sys.path.append(r'path\tool')           | e.g sys.path.append(r'c:\users\user\desktop\tool') <br />
 press enter <br />
 
 import tool.ui <br />
