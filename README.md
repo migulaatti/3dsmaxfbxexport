@@ -11,11 +11,11 @@ running the script:
 
 select scripting in the 3dsmax toolbar > maxscript listener > select python
 
->> import sys
-.. sys.path.append(r'<path>\tool')           | e.g sys.path.append(r'c:\users\<user>\desktop\tool')
+import sys
+sys.path.append(r'<path>\tool')           | e.g sys.path.append(r'c:\users\<user>\desktop\tool')
 press enter
 
->> import tool.ui
-.. dialog = tool.ui.PyMaxDialog()
-.. dialog.show()
+import tool.ui
+dialog = tool.ui.PyMaxDialog()
+dialog.show()
 press enter
